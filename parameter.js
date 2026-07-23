@@ -3,7 +3,9 @@ function square(number){
      console.log('The Number Square is: ', num)
 }
 
-square(10);
+square(10); // Way 01
+const numInput = 80; 
+square(numInput); // Way 02
 
 function numbers(num1, num2, num3, num4) {
      const sum = num1 + num2 + num3 + num4;
@@ -17,3 +19,4 @@ function numbers(num1, num2, num3, num4) {
 }
 
 numbers(100,80,60,40);
+
